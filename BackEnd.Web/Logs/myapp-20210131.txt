@@ -1,0 +1,18 @@
+2021-01-31T17:08:01.0842790+02:00 0HM65RPRILJCG:0000000A [WRN] Invalid password for user "e720ba02-2d68-4125-ac31-ab8c43308c82". (c2dce6c7)
+2021-01-31T17:08:14.5746418+02:00 0HM65RPRILJCG:0000000C [WRN] Invalid password for user "e720ba02-2d68-4125-ac31-ab8c43308c82". (c2dce6c7)
+2021-01-31T17:09:31.4164001+02:00 0HM65RPRILJCG:00000011 [WRN] Invalid password for user "e720ba02-2d68-4125-ac31-ab8c43308c82". (c2dce6c7)
+2021-01-31T21:14:49.0266219+02:00 0HM662072RBM2:00000002 [WRN] Invalid password for user "205a96a6-5518-4384-afba-350b3daffeff". (c2dce6c7)
+2021-01-31T22:12:36.3072623+02:00 0HM664I6721BP:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotSupportedException: Ambiguous HTTP method for action - BackEnd.Web.Controllers.UploadController.Upload (BackEnd.Web). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-31T22:14:19.4904209+02:00 0HM664J55JAH3:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotSupportedException: Ambiguous HTTP method for action - BackEnd.Web.Controllers.UploadController.Upload (BackEnd.Web). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
